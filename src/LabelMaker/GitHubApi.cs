@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Octokit;
+using Spectre.Console;
 
 namespace LabelMaker;
 
@@ -53,9 +54,9 @@ public static class GitHubApi
 
         foreach (var newLabel in newLabelsToCreate)
         {
-            Console.WriteLine($"Creating label with name {newLabel.Name}, color {newLabel.Color}, and description {newLabel.Description}...");
+            AnsiConsole.MarkupLineInterpolated($"[#{newLabel.Color}]Creating label with name {newLabel.Name}, color {newLabel.Color}, and description {newLabel.Description}...[/]");
             var response = await githubClient.Issue.Labels.Create(owner: owner, name: repository, newLabel: newLabel);
-            Console.WriteLine($"Done. Response: {JsonSerializer.Serialize(response)}");
+            AnsiConsole.MarkupLineInterpolated($"[#{newLabel.Color}]Done. Response: {JsonSerializer.Serialize(response)}[/]");
         }
     }
 }
