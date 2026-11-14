@@ -15,9 +15,9 @@ public static class GitHubApi
     private static readonly NewLabel[] _newLabels = [
         new NewLabel (name: "priority:1", color: "CE0E18") { Description = "Highest" },
         new NewLabel (name: "priority:2", color: "D85A10") { Description = "High" },
-        new NewLabel (name: "priority:3", color: "7A7737") { Description = "Medium" },
-        new NewLabel (name: "priority:4", color: "0AC8A9") { Description = "Low" },
-        new NewLabel (name: "priority:5", color: "4B8DF0") { Description = "Lowest" },
+        new NewLabel (name: "priority:3", color: "E0A000") { Description = "Medium" },
+        new NewLabel (name: "priority:4", color: "7B9EC4") { Description = "Low" },
+        new NewLabel (name: "priority:5", color: "A0A7B0") { Description = "Lowest" },
         ];
 
     public static async Task CreateLabelsAsync(string owner, string repository, string personalAccessToken)

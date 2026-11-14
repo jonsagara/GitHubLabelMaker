@@ -8,13 +8,13 @@ Labels that already exist in the repository (matched by name, case-insensitively
 
 The labels are defined in [`src/GitHubLabelMaker/GitHubApi.cs`](src/GitHubLabelMaker/GitHubApi.cs):
 
-| Name         | Color    | Description |
-|--------------|----------|-------------|
-| `priority:1` | `CE0E18` | Highest     |
-| `priority:2` | `D85A10` | High        |
-| `priority:3` | `7A7737` | Medium      |
-| `priority:4` | `0AC8A9` | Low         |
-| `priority:5` | `4B8DF0` | Lowest      |
+| Label | Name         | Color    | Description |
+|-------|--------------|----------|-------------|
+| ![priority:1](https://img.shields.io/badge/priority%3A1-CE0E18) | `priority:1` | `CE0E18` | Highest     |
+| ![priority:2](https://img.shields.io/badge/priority%3A2-D85A10) | `priority:2` | `D85A10` | High        |
+| ![priority:3](https://img.shields.io/badge/priority%3A3-E0A000) | `priority:3` | `E0A000` | Medium      |
+| ![priority:4](https://img.shields.io/badge/priority%3A4-7B9EC4) | `priority:4` | `7B9EC4` | Low         |
+| ![priority:5](https://img.shields.io/badge/priority%3A5-A0A7B0) | `priority:5` | `A0A7B0` | Lowest      |
 
 ## Requirements
 
