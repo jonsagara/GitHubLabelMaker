@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelMaker", "src\LabelMaker\LabelMaker.csproj", "{095B9EE1-F30E-490E-8606-0912E03C9823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubLabelMaker", "src\GitHubLabelMaker\GitHubLabelMaker.csproj", "{095B9EE1-F30E-490E-8606-0912E03C9823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
